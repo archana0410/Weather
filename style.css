@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url("bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(10, 0, 0);
+    font-family: sans-serif;
+}
+.location,
+.temperature{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.temperature{
+    flex-direction: column;
+}
+.degree-section,
+.main,
+.humid,
+.temp-description{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+}
+.degree-section span{
+    margin: 10px;
+    font-size: 30px;
+}
+.degree-section h2{
+    font-size: 40px;
+    color: black;
+}
+.main span,
+.humid span{
+    margin:10px;
+    color: black;
+    font-weight: bold;
+}
+h1{
+    color: blanchedalmond;
+}
